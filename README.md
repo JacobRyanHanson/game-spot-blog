@@ -1,4 +1,4 @@
-# GameSpotBlog
+# Game Spot Blog
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
 ## Description 
@@ -33,7 +33,7 @@ GameSpotBlog is a gaming blog designed by gamers, for gamers. This site allows u
 * Run the app
      - `npm start` [To start the server] and navigate to <http://localhost:3001/> in your browser OR Use Insomnia Core
 
-* [LiveHerokuLink] (https://tranquil-tor-89831.herokuapp.com/)
+* [LiveHerokuLink] (https://game-spot-blog-32423.herokuapp.com/)
 ## Screenshots
 <img src= /resources/srn1.jpg>
 <img src= /resources/srn2.jpg>
