@@ -1,6 +1,5 @@
-
-<form class='new-post-form box m-3 is-flex is-flex-grow-1 is-flex-direction-column post-background'>
-    <p class='title'>Create Post</p>
+<form class='new-post-form m-3 is-flex is-flex-grow-1 is-flex-direction-column post-background'>
+    <p class='subtitle is-3'>Create Post</p>
     <div class="field is-flex">
         <input class="input post-title mr-2" name='post-title' type="text" placeholder="Title">
 
@@ -39,8 +38,8 @@
     </div>
 </form>
 
-<div class='post-collection post-list box m-3 is-flex is-flex-direction-column is-flex-grow-1 is-align-items-center post-background'>
-    <p class='title'>Your Posts</p>
+<div class='post-collection post-list m-3 is-flex is-flex-direction-column is-flex-grow-1 is-align-items-center post-background'>
+    <p class='subtitle is-3'>Your Posts</p>
     {{> comment-list this}}
 </div>
 

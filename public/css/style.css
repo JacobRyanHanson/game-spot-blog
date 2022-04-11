@@ -15,17 +15,13 @@ html,body {
     min-height: 100vh;
 }
 
-.title:hover {
+.title:hover, .subtitle-top:hover {
     filter: brightness(150%);
 }
 
 .category-container {
     margin: 10px !important;
     width: 21rem;
-}
-
-.post-container {
-    width: 90%;
 }
 
 .post-container > * {
@@ -64,7 +60,6 @@ html,body {
 .post-background {
     background: palegreen;
 }
-
 
 .dropdown-content {
     height: 178px;

@@ -13,15 +13,15 @@
                 <div class='is-flex is-justify-content-space-between'>
                     <a href="/post/{{post.id}}">Comment</a>
                     {{#if (my_post post ../user_id)}}
-                        <form class='delete-post-form'>
-                            <button type='submit' data-post-id={{post.id}} class='has-text-danger btn-no-style is-size-6'>
-                                Delete
-                            </button>
-                        </form>
                         <form class='updatepost-form'>
                             <a href="/post/edit-post/{{post.id}}" class='has-text-success btn-no-style is-size-6'>
                                 Edit
                             </a>
+                        </form>
+                        <form class='delete-post-form'>
+                            <button type='submit' data-post-id={{post.id}} class='has-text-danger btn-no-style is-size-6'>
+                                Delete
+                            </button>
                         </form>
                     {{/if}}
                 </div>

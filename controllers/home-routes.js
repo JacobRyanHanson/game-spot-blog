@@ -24,7 +24,8 @@ router.get('/', (req, res) => {
         const posts = data.map(post => post.get({ plain: true }));
         res.render('homepage', {
             posts,
-            loggedIn: req.session.loggedIn
+            loggedIn: req.session.loggedIn,
+            user_id: req.session.user_id
         });
     }).catch(err => {
         console.log(err);
