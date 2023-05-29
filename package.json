@@ -12,6 +12,9 @@
     "type": "git",
     "url": "git+https://github.com/alexm1937/gameSpotBlog.git"
   },
+  "engines": {
+    "node": "16.20.0"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
